@@ -1,0 +1,88 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* background-color: red; */
+}
+
+/* Header styles */
+header {
+  background-color: #4CAF50;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Main content styles */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Home page styles */
+.home {
+  text-align: center;
+}
+
+/* Articles page styles */
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: red; */
+}
+
+/* Tools page styles */
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Community page styles */
+.community {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Events page styles */
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Basic card style for articles, tools, community, and events */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  header {
+    font-size: 1.2em;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,52 @@
+.articles {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.articles h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.article-list {
+  display: grid;
+  gap: 20px;
+}
+
+.article {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.article h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination li {
+  margin-right: 10px;
+  list-style: none;
+}
+
+.pagination li a {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.pagination li a:hover {
+  text-decoration: underline;
+}

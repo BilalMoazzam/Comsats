@@ -1,0 +1,43 @@
+.tools {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .carbon-calculator {
+    margin-top: 20px;
+  }
+  
+  .carbon-calculator label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .carbon-calculator input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .carbon-calculator button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .carbon-calculator button:hover {
+    background-color: #45a049;
+  }
+  
+  .carbon-calculator p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  

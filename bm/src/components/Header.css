@@ -1,0 +1,59 @@
+/* Header.css */
+
+/* General header styles */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  /* Navigation styles */
+  .header nav {
+    margin-top: 10px;
+  }
+  
+  /* Navigation list styles */
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Navigation list item styles */
+  .header nav ul li {
+    display: inline;
+  }
+  
+  /* Link styles */
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Link hover and active styles */
+  .header nav ul li a:hover,
+  .header nav ul li a:active {
+    background-color: white;
+    color: #4CAF50;
+    border-radius: 5px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .header {
+      font-size: 1.2em;
+    }
+  
+    .header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

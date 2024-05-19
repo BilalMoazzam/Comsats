@@ -1,0 +1,100 @@
+/* Community.css */
+
+/* General styles for the community component */
+.community {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  /* Styles for the heading */
+  .community h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the posts container */
+  .posts {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for individual post */
+  .post {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Styles for post user */
+  .post h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333333;
+  }
+  
+  /* Styles for post content */
+  .post p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #666666;
+  }
+  
+  /* Styles for new post section */
+  .new-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styles for new post textarea */
+  .new-post textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    resize: none;
+  }
+  
+  /* Styles for post button */
+  .new-post button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .new-post button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .community {
+      padding: 15px;
+    }
+  
+    .community h2 {
+      font-size: 1.5em;
+    }
+  
+    .new-post textarea {
+      height: 80px;
+    }
+  }
+  
